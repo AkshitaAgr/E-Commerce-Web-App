@@ -1,0 +1,61 @@
+.profile-page {
+  font-size: 15px;
+}
+
+.profile-heading {
+  font-size: 30px;
+  text-align: center;
+}
+
+.profile-name {
+  font-size: 20px;
+}
+
+.profile-bio {
+  font-size: 20px;
+}
+
+.profile-location {
+  font-size: 20px;
+}
+
+.profile-email{
+  font-size: 20px;
+}
+
+.profile-details{
+  font-size: 20px;
+}
+
+.profile-number{
+  font-size: 20px;
+}
+
+.profile-info{
+  font-size: 25px;
+}
+
+.profile-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+  background-color: rgb(198, 197, 197);
+  padding: 20px;
+  text-align: left;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  /* border-radius: 8px; */
+}
+
+.button {
+  color: blue;
+  font-size: 16px;
+}
+
+/* .profile-sidebar {
+  width: 30%;
+  padding: 100px;
+  background-color:  gainsboro;
+  border-radius: 2px; 
+}
+ */

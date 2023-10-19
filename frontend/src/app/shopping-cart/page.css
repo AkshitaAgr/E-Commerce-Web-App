@@ -1,0 +1,132 @@
+/* Cart container */
+.cart {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  gap: 20px;
+}
+
+.cart h1{
+  font-size: 20px;
+}
+
+/* Cart item */
+.cart-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Product image */
+.product-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+/* Product details */
+.product-details {
+  flex: 1;
+}
+
+.product-name {
+  font-size: 18px;
+  margin: 0;
+}
+
+.product-quantity {
+  margin: 0;
+  font-size: 14px;
+}
+
+.price {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Quantity buttons */
+.product-quantity button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.quantity-button {
+  border: none;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Remove button */
+.remove-button {
+  /* background-color: #fbf4f2; */
+  color: #fff;
+  border: none;
+  /* border-radius: 50%; */
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cart-total {
+  font-size: 18px;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  /* align-items: center; */
+  /* justify-content: center; */
+  gap: 20px;
+}
+
+.checkout {
+  background-color: #c7de64;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.home {
+  background-color: #c7de64;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+/* .remove-button:hover {
+  background-color: #bbb6b5;
+} */
+
+/* .remove-button-container {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.remove-button {
+  width: 100%;
+  height: 100%;
+  background-image: url('/Users/akshitaagrawal/Downloads/RMIT/SEPT/Project/team-project-group-p05-03/frontend/public/trash-bin-icon.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}  */

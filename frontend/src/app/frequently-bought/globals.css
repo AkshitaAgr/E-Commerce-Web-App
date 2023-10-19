@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.frequent {
+    display: flex;
+    flex-wrap: wrap; 
+    background-color: #f2f2f2;
+
+}
+.product-card {
+    position: relative; /* Add this line to create a positioning context */
+    width: 200px;
+    height: 410px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.product-card img {
+    max-width: 185px;
+    max-height: 250px;
+}
+
+.product-card .product-name {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.product-card .product-store {
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    }
+
+.product-card .product-price {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.product-card .cartImg {
+    position: absolute;
+    bottom: 10px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+}

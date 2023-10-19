@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {box-sizing: border-box}
+/* styles for the login page
+all input fields and buttons should be centered on the page */
+.container {
+  text-align: center;
+}
+
+.container h1 {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+  input[type=text], input[type=password] {
+  text-align: center;
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.container .lbl {
+  text-align: left;
+  padding-left: 200px;
+}
+
+button {
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.loginbtn {
+  padding: 14px 20px;
+  background-color: rgb(137, 208, 137);
+  text-align: center;
+  width: 50%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
